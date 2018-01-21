@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Antonio Kufoy</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="175">
@@ -53,7 +55,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <img src="home_image.jpg" class="img-rounded img-thumbnail" alt="img_0835" id="home_image">
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8" id="home_text">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" id="home_text">
                     <h1>Hi welcome to my page. Here are a few things that I have been working on. I have attached my resume and
                         portfolio for review for any who are interested.</h1>
                 </div>
@@ -77,30 +79,28 @@
         <div class="container-fluid" id="portfolio_container">
             <div class="row" id="portfolio">
                 <div class="col-lg-4 col-md-4 col-sm-4" id="work_images">
-                    <div class="row">
-                        <div class="container-fluid">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img src="group_project.png" class="img-thumbnail imp-responsive" alt="group_project">
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img src="sql_sakila.png" class="img-thumbnail imp-responsive" alt="sql_sakila">
-                            </div>
+
+                    <div class="container-fluid">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <img src="group_project.png" class="img-thumbnail imp-responsive" alt="group_project" id="group_projects">
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img src="tweepy.png" class="img-thumbnail imp-responsive" alt="tweepy">
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img src="pyber_ride_sharing.png" class="img-thumbnail imp-responsive" alt="tweepy">
-                            </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <img src="sql_sakila.png" class="img-thumbnail imp-responsive" alt="sql_sakila" id="sql_sakila">
                         </div>
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <img src="tweepy.png" class="img-thumbnail imp-responsive" alt="tweepy" id="tweepy">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <img src="pyber_ride_sharing.png" class="img-thumbnail imp-responsive" alt="pyber" id="pyber">
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-8">
                     <div class="portfolio_text">
-                        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ipsam ab quam dolor, alias esse velit
-                            exercitationem officia consequuntur! Numquam sapiente pariatur totam repellat ullam, impedit
-                            quam ab. Beatae, dolor?</h1>
+                        <h2 id="toggle_text">Click on a project image to get a brief description</h2>
                     </div>
                 </div>
             </div>
