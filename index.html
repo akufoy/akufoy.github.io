@@ -40,7 +40,7 @@
                                         <button type="submit" class="btn btn-default">Submit</button>
                                     </form> -->
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
 
@@ -64,7 +64,7 @@
             </div>
 
         </div>
-        <div class="container-fluid" id="resume_container">
+        <div class="container-fluid">
             <div class="row" id="resume">
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <h2 align="left" id="resume_text">
@@ -81,30 +81,54 @@
         </div>
         <div class="container-fluid">
             <div class="row" id="portfolio">
-                <div class="col-lg-4 col-md-4 col-sm-4" id="work_images">
+                <div class="col-lg-4 col-md-4 col-sm-6" id="work_images">
 
                     <div class="container-fluid" id="portfolio_container">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-6 col-md-6 col-sm-3">
                             <img src="group_project.png" class="img-thumbnail imp-responsive" alt="group_project" id="group_projects">
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-6 col-md-6 col-sm-3">
                             <img src="sql_sakila.png" class="img-thumbnail imp-responsive" alt="sql_sakila" id="sql_sakila">
                         </div>
 
 
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-6 col-md-6 col-sm-3">
                             <img src="tweepy.png" class="img-thumbnail imp-responsive" alt="tweepy" id="tweepy">
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-6 col-md-6 col-sm-3">
                             <img src="pyber_ride_sharing.png" class="img-thumbnail imp-responsive" alt="pyber" id="pyber">
                         </div>
 
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="col-lg-8 col-md-8 col-sm-6">
                     <div class="portfolio_text">
                         <h2 id="toggle_text">Click on a project image to get a brief description</h2>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="contact_container">
+            <div class="row" id="contact">
+                <div class="container" id="contact_form">
+                    <h2 align="middle">Send me a message for any and all inquiries.</h2>
+
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+                        
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>

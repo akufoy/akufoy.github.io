@@ -125,6 +125,47 @@ div#resume.row {
     transform: scale(1.5)translateX(50px)translateY(25px);
 }
 
+#contact {
+    background-color: #E70808
+}
+
+#contact_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contact_form {
+    border-radius: 5px;
+    background-color: #E71212;
+    padding: 20px;
+    padding-top: 10vh;
+    height: 100vh;
+}
+
 .intrinsic-container {
     padding-top: 20vh;
     position: relative;
