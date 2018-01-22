@@ -64,6 +64,7 @@ div#resume.row {
 }
 
 #portfolio_container {
+    position: relative;
     padding-left: 15px;
     padding-right: 60px;
 }
@@ -73,13 +74,27 @@ div#resume.row {
     border-radius: 4px;
     width: 150px;
     height: 112.5px;
+    display: block;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
 }
+
+#group_projects:hover {
+    transform: scale(1.5)translateX(50px)translateY(25px);
+  }
 
 #sql_sakila {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 150px;
     height: 112.5px;
+    display: block;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+#sql_sakila:hover {
+    transform: scale(1.5)translateX(50px)translateY(25px);
 }
 
 #tweepy {
@@ -87,13 +102,27 @@ div#resume.row {
     border-radius: 4px;
     width: 150px;
     height: 112.5px;
+    display: block;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
 }
+
+#tweepy:hover {
+    transform: scale(1.5)translateX(50px)translateY(25px);
+  }
 
 #pyber {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 150px;
     height: 112.5px;
+    display: block;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+#pyber:hover {
+    transform: scale(1.5)translateX(50px)translateY(25px);
 }
 
 .intrinsic-container {
