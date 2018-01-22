@@ -14,8 +14,8 @@ li:hover {
 }
 
 #home_image {
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -35,9 +35,52 @@ li:hover {
     padding-top: 10vh;
 }
 
+.col-lg-6 img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 100%;
+    width: 100%; 
+    vertical-align: middle;
+}
+
 .portfolio_text {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 20vh;
+}
+
+#portfolio_container {
+    padding-left: 45px;
+    padding-right: 60px;
+}
+
+#group_projects {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    height: 112.5px;
+}
+
+#sql_sakila {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    height: 112.5px;
+}
+
+#tweepy {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    height: 112.5px;
+}
+
+#pyber {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    height: 112.5px;
 }
 
 .intrinsic-container {
