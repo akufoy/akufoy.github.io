@@ -1,4 +1,14 @@
 $(document).ready(function(){
+
+    var scrollLink = $('.scroll');
+
+    scrollLink.click(function(e) {
+        e.preventDefault();
+        $('body,html').animate({
+            scrollTop: $(this.hash).offset().top
+        })
+    })
+
     $('#group_projects').click(function() {
         $('#toggle_text').html('This was a group project showcasing pandas and API usage. The meetup API was used to create plots for popular interest based on location. Pandas was used to manipulate and clean data. Matplotlib was used to create plots.');
     });
