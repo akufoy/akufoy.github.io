@@ -4,13 +4,19 @@ li:hover {
 
 
 #home {
-    padding-top: 70px;
+    padding-top: 11vh;
+    padding-left: 15px;
     height: 100vh;
 }
 
 #home_text {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10vh;
+    padding-right: 25vh;
+}
+
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #home_image {
@@ -18,6 +24,14 @@ li:hover {
     width: 100%;
 }
 
+.col-lg-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div#resume.row {
+    padding-left: 30px;
+}
 
 #resume {
     padding-top: 10vh;
@@ -26,13 +40,12 @@ li:hover {
 }
 
 #resume_text {
-    padding-left: 30px;
     padding-right: 0;
 }
 
 #portfolio {
     height:100vh;
-    padding-top: 10vh;
+    padding-top: 13vh;
 }
 
 .col-lg-6 img {
@@ -51,7 +64,7 @@ li:hover {
 }
 
 #portfolio_container {
-    padding-left: 45px;
+    padding-left: 15px;
     padding-right: 60px;
 }
 
