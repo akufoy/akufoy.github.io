@@ -52,13 +52,19 @@
 
         <div class="container-fluid">
             <div class="row" id="home">
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <img src="home_image.jpg" class="img-rounded img-thumbnail" alt="img_0835" id="home_image">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <img src="home_image.jpg" class="img-rounded img-thumbnail" alt="img_0835" id="home_image">
+                    </div>
                 </div>
-                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" id="home_text">
-                    <div class="jumbotron">
-                        <h1 align="middle">"Survival of the fittest. I ate my twin in the womb"</h1>
-                        <h4 align="right">- M.D.</h4>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="quote">
+                        <div class="jumbotron">
+                            <h1 align="middle">"Survival of the fittest. I ate my twin in the womb"</h1>
+                            <h4 align="right">- M.D.</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,19 +90,22 @@
                 <div class="col-lg-4 col-md-4 col-sm-6" id="work_images">
 
                     <div class="container-fluid" id="portfolio_container">
-                        <div class="col-lg-6 col-md-6 col-sm-3">
-                            <img src="group_project.png" class="img-thumbnail imp-responsive" alt="group_project" id="group_projects">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-3">
-                            <img src="sql_sakila.png" class="img-thumbnail imp-responsive" alt="sql_sakila" id="sql_sakila">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-3" align="right">
+                                <img src="group_project.png" class="img-thumbnail" alt="group_project" id="group_projects">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-3">
+                                <img src="sql_sakila.png" class="img-thumbnail" alt="sql_sakila" id="sql_sakila">
+                            </div>
                         </div>
 
-
-                        <div class="col-lg-6 col-md-6 col-sm-3">
-                            <img src="tweepy.png" class="img-thumbnail imp-responsive" alt="tweepy" id="tweepy">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-3">
-                            <img src="pyber_ride_sharing.png" class="img-thumbnail imp-responsive" alt="pyber" id="pyber">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-3" align="right">
+                                <img src="tweepy.png" class="img-thumbnail" alt="tweepy" id="tweepy">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-3">
+                                <img src="pyber_ride_sharing.png" class="img-thumbnail" alt="pyber" id="pyber">
+                            </div>
                         </div>
 
                     </div>
@@ -122,7 +131,7 @@
 
                         <label for="country">Email</label>
                         <input type="text" id="email" name="email" placeholder="Your email..">
-                        
+
 
                         <label for="subject">Subject</label>
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>

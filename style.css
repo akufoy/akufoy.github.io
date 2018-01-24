@@ -9,9 +9,9 @@ li:hover {
     height: 100vh;
 }
 
-#home_text {
-    padding-left: 10vh;
-    padding-right: 25vh;
+#quote {
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
 
 .jumbotron {
@@ -48,11 +48,16 @@ div#resume.row {
     padding-top: 13vh;
 }
 
+.col-lg-6 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
 .col-lg-6 img {
     margin-top: 8px;
     margin-bottom: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
     height: 100%;
     width: 100%; 
     vertical-align: middle;
@@ -66,12 +71,11 @@ div#resume.row {
 #portfolio_container {
     position: relative;
     padding-left: 15px;
-    padding-right: 60px;
+    padding-right: 15px;
 }
 
 #group_projects {
     border: 1px solid #ddd;
-    border-radius: 4px;
     width: 170px;
     height: 112.5px;
     display: block;
@@ -87,7 +91,6 @@ div#resume.row {
 
 #sql_sakila {
     border: 1px solid #ddd;
-    border-radius: 4px;
     width: 170px;
     height: 112.5px;
     display: block;
@@ -103,7 +106,6 @@ div#resume.row {
 
 #tweepy {
     border: 1px solid #ddd;
-    border-radius: 4px;
     width: 170px;
     height: 112.5px;
     display: block;
@@ -119,7 +121,6 @@ div#resume.row {
 
 #pyber {
     border: 1px solid #ddd;
-    border-radius: 4px;
     width: 170px;
     height: 112.5px;
     display: block;
@@ -146,7 +147,6 @@ input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -158,7 +158,6 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
