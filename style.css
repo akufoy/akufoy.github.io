@@ -9,6 +9,10 @@ li:hover {
     height: 100vh;
 }
 
+#home_picture_row {
+    padding-bottom: 10vh;
+}
+
 #quote {
     padding-left: 20vh;
     padding-right: 20vh;
