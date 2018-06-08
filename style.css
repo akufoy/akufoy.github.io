@@ -10,13 +10,14 @@ li:hover {
 }
 
 #home_picture_row {
+    padding-left: 15vh;
     padding-top: 4vh;
     padding-bottom: 10vh;
 }
 
 #quote {
-    padding-left: 20vh;
-    padding-right: 20vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
 }
 
 .jumbotron {
@@ -25,7 +26,6 @@ li:hover {
 }
 
 #home_image {
-    padding-left: 20vh;
     height: 85%;
     width: 85%;
 }
