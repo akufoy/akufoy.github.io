@@ -182,7 +182,7 @@ input[type=submit]:hover {
     background-color: #E71212;
     padding: 20px;
     padding-top: 10vh;
-    padding-bottom: 3vh;
+    padding-bottom: 0;
     height: 100vh;
 }
 
