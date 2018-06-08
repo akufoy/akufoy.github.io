@@ -149,6 +149,7 @@ div#resume.row {
 }
 
 #contact_container {
+    position: relative;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
