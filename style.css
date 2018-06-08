@@ -2,7 +2,10 @@ li:hover {
     background-color: rgba(236, 231, 231, 0.56);
 }
 
-
+body, html {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 #home {
     padding-top: 11vh;
     padding-left: 15px;
