@@ -10,14 +10,14 @@ li:hover {
 }
 
 #home_picture_row {
-    padding-left: 10vh;
+    padding-left: 7.5vh;
     padding-top: 4vh;
     padding-bottom: 10vh;
 }
 
 #quote {
-    padding-left: 10vh;
-    padding-right: 10vh;
+    padding-left: 7.5vh;
+    padding-right: 7.5vh;
 }
 
 .jumbotron {
@@ -147,6 +147,8 @@ div#resume.row {
 #contact_container {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 input[type=text], select, textarea {
