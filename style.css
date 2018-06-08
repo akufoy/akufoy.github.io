@@ -142,13 +142,13 @@ div#resume.row {
 
 #contact {
     background-color: #E70808;
-    margin-bottom: 3vh;
+    margin-bottom: 0vh;
 }
 
 #contact_container {
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 0;
+    padding-bottom: 3vh;
     padding-top: 0;
 }
 
