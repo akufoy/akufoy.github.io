@@ -19,8 +19,8 @@ body, html {
 }
 
 #quote {
-    padding-left: 5vh;
-    padding-right: 5vh;
+    padding-left: 7.5vh;
+    padding-right: 7.5vh;
 }
 
 .jumbotron {
@@ -29,8 +29,8 @@ body, html {
 }
 
 #home_image {
-    height: 85%;
-    width: 85%;
+    height: 100%;
+    width: 100%;
 }
 
 .col-lg-2 {
