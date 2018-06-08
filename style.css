@@ -10,14 +10,14 @@ li:hover {
 }
 
 #home_picture_row {
-    padding-left: 7.5vh;
+    padding-left: 5vh;
     padding-top: 4vh;
     padding-bottom: 10vh;
 }
 
 #quote {
-    padding-left: 7.5vh;
-    padding-right: 7.5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
 .jumbotron {
@@ -36,7 +36,7 @@ li:hover {
 }
 
 div#resume.row {
-    padding-left: 7.5vh;
+    padding-left: 5vh;
 }
 
 #resume {
